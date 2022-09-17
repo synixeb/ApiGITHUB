@@ -4,6 +4,7 @@ btn.onclick = () => {
         .then(data => {
         output.texContent = "";
         output.textContent = data.name;
+        
         const img = document.createElement("img") ;
         img.src = data.avatar_url ;
         img.width = "100" ;
